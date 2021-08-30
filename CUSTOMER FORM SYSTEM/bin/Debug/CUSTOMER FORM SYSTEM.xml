@@ -1,0 +1,411 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CUSTOMER FORM SYSTEM
+</name>
+</assembly>
+<members>
+<member name="T:CUSTOMER_FORM_SYSTEM.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CUSTOMER_FORM_SYSTEM.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CUSTOMER_FORM_SYSTEM.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.CUSTOMER_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.DEPARTMENTS_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.EMPLOYEE_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.ORDER_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.CUSTOMER_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.DEPARTMENTS_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.EMPLOYEE_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.ORDER_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.CUSTOMER_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.DEPARTMENTS_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.EMPLOYEE_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet.ORDER_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.CUSTOMER_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.DEPARTMENTS_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.EMPLOYEE_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.ORDER_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.UpdateAll(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1.CUSTOMER_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1.CUSTOMER_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1.CUSTOMER_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.CUSTOMER_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.UpdateAll(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2.DEPARTMENTS_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2.DEPARTMENTS_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2.DEPARTMENTS_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.DEPARTMENTS_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.UpdateAll(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3.ORDER_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3.ORDER_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3.ORDER_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.ORDER_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.UpdateAll(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4.ORDER_TABLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4.ORDER_TABLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4.ORDER_TABLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.ORDER_TABLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.UpdateAll(CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CUSTOMER_FORM_SYSTEM.test_1_with_2003_versionDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

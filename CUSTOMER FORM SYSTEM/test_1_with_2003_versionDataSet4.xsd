@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="test_1_with_2003_versionDataSet4" targetNamespace="http://tempuri.org/test_1_with_2003_versionDataSet4.xsd" xmlns:mstns="http://tempuri.org/test_1_with_2003_versionDataSet4.xsd" xmlns="http://tempuri.org/test_1_with_2003_versionDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="test_1_with_2003_versionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="test_1_with_2003_versionConnectionString (MySettings)" PropertyReference="ApplicationSettings.CUSTOMER_FORM_SYSTEM.My.MySettings.GlobalReference.Default.test_1_with_2003_versionConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ORDER TABLETableAdapter" GeneratorDataComponentClassName="ORDER_TABLETableAdapter" Name="ORDER TABLE" UserDataComponentName="ORDER TABLETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="test_1_with_2003_versionConnectionString (MySettings)" DbObjectName="ORDER TABLE" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Item Ordered] FROM [ORDER TABLE]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Item Ordered" DataSetColumn="Item Ordered" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="test_1_with_2003_versionDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="test_1_with_2003_versionDataSet4" msprop:Generator_UserDSName="test_1_with_2003_versionDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ORDER_x0020_TABLE" msprop:Generator_TableClassName="ORDER_TABLEDataTable" msprop:Generator_TableVarName="tableORDER_TABLE" msprop:Generator_TablePropName="ORDER_TABLE" msprop:Generator_RowDeletingName="ORDER_TABLERowDeleting" msprop:Generator_RowChangingName="ORDER_TABLERowChanging" msprop:Generator_RowEvHandlerName="ORDER_TABLERowChangeEventHandler" msprop:Generator_RowDeletedName="ORDER_TABLERowDeleted" msprop:Generator_UserTableName="ORDER TABLE" msprop:Generator_RowChangedName="ORDER_TABLERowChanged" msprop:Generator_RowEvArgName="ORDER_TABLERowChangeEvent" msprop:Generator_RowClassName="ORDER_TABLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item_x0020_Ordered" msprop:Generator_ColumnVarNameInTable="columnItem_Ordered" msprop:Generator_ColumnPropNameInRow="Item_Ordered" msprop:Generator_ColumnPropNameInTable="Item_OrderedColumn" msprop:Generator_UserColumnName="Item Ordered" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

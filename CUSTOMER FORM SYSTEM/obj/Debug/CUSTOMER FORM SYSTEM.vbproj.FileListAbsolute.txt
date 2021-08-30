@@ -1,0 +1,17 @@
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\bin\Debug\CUSTOMER FORM SYSTEM.exe.config
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\bin\Debug\CUSTOMER FORM SYSTEM.exe
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\bin\Debug\CUSTOMER FORM SYSTEM.pdb
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\bin\Debug\CUSTOMER FORM SYSTEM.xml
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER FORM SYSTEM.vbproj.AssemblyReference.cache
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER_FORM_SYSTEM.FormLogIn.resources
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER_FORM_SYSTEM.Resources.resources
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER FORM SYSTEM.vbproj.GenerateResource.cache
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER FORM SYSTEM.vbproj.CoreCompileInputs.cache
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER FORM SYSTEM.exe
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER FORM SYSTEM.xml
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER FORM SYSTEM.pdb
+E:\YEAR TWO\semester two\programming project\Customer form system\CUSTOMER FORM SYSTEM\bin\Debug\test 1 with 2003 version.mdb
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER_FORM_SYSTEM.Customer_Information.resources
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER_FORM_SYSTEM.Employee_Form.resources
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER_FORM_SYSTEM.Invoice.resources
+E:\YEAR TWO\semester two\programming project\CUSTOMER FORM SYSTEM\CUSTOMER FORM SYSTEM\obj\Debug\CUSTOMER_FORM_SYSTEM.Direction.resources
